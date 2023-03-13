@@ -81,7 +81,20 @@ task compileC(type: Exec) {
 $ gradle build
 ```
 5. This will generate the executable file in the build directory.
+6. Now to run the executable file generated after a Gradle build, open a terminal window and navigate to the directory where the executable file is located. You can use the cd command to change to the appropriate directory.
+7. If the file does not have executable permission, you can use the chmod command to give it executable permission. For example, if the file is named myapp, you can use the following command to give it executable permission:
+```bash
+chmod +x myapp
+```
+8. Once the file has executable permission, you can run it by entering its name at the command prompt. For example:
+```bash
+./myapp
+```
+9. My output:
 
+![image](img1.jpg)
+
+Note that you need to prefix the name of the file with ./ to indicate that it should be run from the current directory.
 Note that you may need to install the C toolchain and set up the environment variables for it to work properly. Additionally, you may need to customize the model section of the build.gradle file depending on your specific needs, such as specifying additional compiler or linker options.
 
 
