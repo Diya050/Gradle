@@ -73,10 +73,8 @@ task compileC(type: Exec) {
     commandLine 'gcc', 'file1.cpp', 'file2.cpp', '-o', 'output'
 }
 ```
-
 3. In the sources section, specify the directory where your C files are located and list the files that you want to compile.
 4. Run the following command to compile the C++ files:
-
 ```bash
 $ gradle build
 ```
