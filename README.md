@@ -51,7 +51,7 @@ To compile two C++ files using Gradle, you can use the cpp plugin provided by Gr
 
 1. Create a new directory for your Gradle project and navigate to it.
 2. Create a build.gradle file in the project directory and add the following code:
-```C++
+```bash
 apply plugin: 'cpp'
 
 model {
