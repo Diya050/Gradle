@@ -78,7 +78,7 @@ task compileC(type: Exec) {
 4. Run the following command to compile the C++ files:
 
 ```bash
-    $ gradle build
+$ gradle build
 ```
 5. This will generate the executable file in the build directory.
 
