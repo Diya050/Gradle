@@ -92,7 +92,7 @@ chmod +x myapp
 ```
 9. My output:
 
-![image](img1.jpg)
+![image](img1.png)
 
 Note that you need to prefix the name of the file with ./ to indicate that it should be run from the current directory.
 Note that you may need to install the C toolchain and set up the environment variables for it to work properly. Additionally, you may need to customize the model section of the build.gradle file depending on your specific needs, such as specifying additional compiler or linker options.
